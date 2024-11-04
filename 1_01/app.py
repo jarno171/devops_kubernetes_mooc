@@ -9,4 +9,4 @@ unique_id = uuid.uuid4()
 while True:
     current_time = datetime.now(timezone.utc).isoformat(timespec='milliseconds').replace("+00:00", "Z")
     print(f"{current_time}: {unique_id}")
-    time.sleep(5)
+    time.sleep(1)
